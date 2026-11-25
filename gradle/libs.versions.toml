@@ -3,12 +3,15 @@ spring-boot = "4.1.2"
 spring-dependency-management = "1.1.7"
 mapstruct = "1.6.3"
 lombok-mapstruct-binding = "0.2.0"
+springdoc = "3.2.1"
 
 [libraries]
 # Versions managed by the Spring Boot BOM
 spring-boot-starter-data-r2dbc = { module = "org.springframework.boot:spring-boot-starter-data-r2dbc" }
 spring-boot-starter-liquibase = { module = "org.springframework.boot:spring-boot-starter-liquibase" }
 spring-boot-starter-webflux = { module = "org.springframework.boot:spring-boot-starter-webflux" }
+spring-boot-starter-validation = { module = "org.springframework.boot:spring-boot-starter-validation" }
+springdoc-starter-webflux-ui = { module = "org.springdoc:springdoc-openapi-starter-webflux-ui", version.ref = "springdoc" }
 spring-boot-devtools = { module = "org.springframework.boot:spring-boot-devtools" }
 spring-jdbc = { module = "org.springframework:spring-jdbc" }
 postgresql = { module = "org.postgresql:postgresql" }

@@ -21,6 +21,8 @@ dependencies {
 	implementation(libs.spring.boot.starter.data.r2dbc)
 	implementation(libs.spring.boot.starter.liquibase)
 	implementation(libs.spring.boot.starter.webflux)
+	implementation(libs.spring.boot.starter.validation)
+	implementation(libs.springdoc.starter.webflux.ui)
 	implementation(libs.spring.jdbc)
 	implementation(libs.mapstruct.lib)
 	compileOnly(libs.lombok)
